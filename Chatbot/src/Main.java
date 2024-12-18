@@ -1,5 +1,3 @@
-// The purpose of this program is to demonstrate the real world example of Java Input and Output concept.
-
 import java.io.*;
 
 public class Main {
@@ -12,16 +10,16 @@ public class Main {
             String input;
 
             while (true) {
-                writer.print("You: "); // Prompt for user input
-                writer.flush(); // Ensure the "You: " appears immediately
-                input = reader.readLine(); // Read user input
+                writer.print("You: "); 
+                writer.flush(); 
+                input = reader.readLine(); 
 
                 if (input.equalsIgnoreCase("bye")) {
                     writer.println("Chatbot: Goodbye! Have a great day!");
-                    break; // Exit the loop
+                    break; 
                 }
 
-                // Basic responses
+                
                 switch (input.toLowerCase()) {
                     case "hi":
                         writer.println("Chatbot: Hello! How can I help you?");
