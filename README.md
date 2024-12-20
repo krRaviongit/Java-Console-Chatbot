@@ -91,7 +91,5 @@ public class Chatbot {
 
 
 
-## License
-Feel free to use or modify this project for learning purposes. 😊
 
 
